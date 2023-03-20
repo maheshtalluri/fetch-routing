@@ -1,0 +1,48 @@
+/* Write your CSS code here */
+
+.blog-item-img {
+  width: 40%;
+}
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+}
+
+.blog-item-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #8e8e8e;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.topic {
+  color: #2f4f4f;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.author {
+  color: #2f4f4f;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.blog-item-bottom {
+  margin-left: 20px;
+}
