@@ -1,1 +1,37 @@
 /* Write your CSS code here */
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+}
+
+.item-details-profile-container {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-left: 180px;
+}
+
+.item-author {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 15px;
+}
+
+.item-image-size {
+  width: 70%;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  color: #2f4f4f;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}

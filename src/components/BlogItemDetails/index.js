@@ -29,8 +29,18 @@ class BlogItemDetails extends Component {
 
   getItemDetails = () => {
     const {blogData} = this.state
-    const {title} = blogData
-    return <p>{title}</p>
+    const {title, imageUrl, content, avatarUrl, author} = blogData
+    return (
+      <div className="item-container">
+        <h1 key={title}>{title}</h1>
+        <div className="item-details-profile-container">
+          <img src={avatarUrl} alt={author} className="avatar-img" />
+          <p className="item-author">{author}</p>
+        </div>
+        <img src={imageUrl} alt={title} className="item-image-size" />
+        <p className="content">{content}</p>
+      </div>
+    )
   }
 
   render() {
